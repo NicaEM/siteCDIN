@@ -1,6 +1,7 @@
 body
 {
     background-color: #B0A090;
+    min-width: 550px;
 }
 
 .corps_de_texte
@@ -9,12 +10,10 @@ body
 	margin-left: 20%;
 	margin-right: 20%;
     background-color: white;
-    min-width: 680px;
 }
 
 .logo
 {
-    min-width: 40px;
     -webkit-animation: opacity 2s linear;
 }
 
@@ -74,11 +73,6 @@ header
     color: white;
 }
 
-section
-{
-    width: 100%;
-}
-
 .section,.article, aside
 {
     display: inline-block;
@@ -88,7 +82,7 @@ section
 
 .section
 {
-    width: 71%;
+    width: 63.5%;
 }
 
 article
@@ -115,9 +109,7 @@ aside
 
 .article
 {
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 98%;
+    margin-left: 5px;
 }
 
 @-webkit-keyframes opacity { 
