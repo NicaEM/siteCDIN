@@ -1,0 +1,146 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+    background-color: #B0A090;
+}
+
+body
+{
+	font:  80% arial,sans-serif;
+	text-align: center;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.corps_de_texte
+{
+	text-align: justify;
+	background-color: #FFFFFF;
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 950px;
+}
+
+.logo
+{
+	position: relative;
+	top: -50px;
+}
+
+header
+{
+	margin-top: 50px;
+	height: 140px;
+	background: url('banniere.jpg');
+}
+
+header h1
+{
+	display: none;
+	height: 80px;
+	line-height: 80px;
+	margin: 0;
+	padding-left: 10px;
+}
+
+nav
+{
+	position: fixed;
+	top: 0px;
+	margin-left: 305px; 
+	text-align: center;
+}
+
+nav a
+{
+	box-shadow: 3px 3px 2px #1c1a19;
+    background-color: #3A3733;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    font-size: 2.0em;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+nav a:hover
+{
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+}
+
+@-webkit-keyframes opacity { 
+  50% { opacity: 0; }
+}
+
+.titre
+{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 960px;
+    box-shadow: 0px 2px 3px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+	background-color: #3A3733;
+	text-align: center;
+	font-size: 3.0em;
+}
+
+section
+{
+	float: right;
+	width: 1000px;
+}
+
+article
+{
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+    box-shadow: 0px 2px 3px #1c1a19;
+    padding: 10px;
+    width: 960px;
+}
+
+.note_bas_page
+{
+	background: #CCC8B3;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+	float: right;
+	width: 960px;
+}
+
+footer
+{
+	background: #BFBD93;
+	clear: both;
+	width: 100%;
+}
+
+footer p
+{
+	margin: 0;
+	padding: 5px 10px;
+}
